@@ -4,7 +4,7 @@ from handlers.start_handler import start_command
 from handlers.messages_handler import handle_response
 from handlers.error_handler import error_handler, setup_logger
 from handlers import *
-from config import TOKEN
+from config_template import TOKEN
 import logging
 import asyncio
 import nest_asyncio

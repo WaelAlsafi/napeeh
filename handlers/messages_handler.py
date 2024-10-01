@@ -2,8 +2,8 @@ from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ContextTypes
 import utils
 import logging
-from constants import *
-from config import logging_group_id
+from constants_template import *
+from config_template import logging_group_id
 from data_processing import df_lst, lst_of_student_id, cell_data, attendence_files
 from certificate_gen import generate_certificate
 from database import update_status

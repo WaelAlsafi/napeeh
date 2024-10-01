@@ -1,5 +1,5 @@
 import mysql.connector
-from config import DB_HOST,DB_NAME,database_name,DB_PASSWORD,DB_USER
+from config_template import DB_HOST,DB_NAME,database_name,DB_PASSWORD,DB_USER
 import logging
 
 def connect_to_db():

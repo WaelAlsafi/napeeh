@@ -3,7 +3,7 @@ import json
 import traceback
 from telegram.constants import ParseMode
 import logging
-from config import error_chat_id
+from config_template import error_chat_id
 from telegram import Update
 from telegram.ext import ContextTypes
 

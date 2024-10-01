@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 from .messages_handler import buttons
 from database import add_user_to_db
-from constants import user_data, start_message
+from constants_template import user_data, start_message
 
 
 async def start_command(update: Update, context):

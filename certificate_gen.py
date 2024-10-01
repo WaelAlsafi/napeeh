@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 import arabic_reshaper
-from constants import arabic_font, english_font
+from constants_template import arabic_font, english_font
 from arabic_reshaper import ArabicReshaper
 
 

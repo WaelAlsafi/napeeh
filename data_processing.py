@@ -1,6 +1,6 @@
 import pandas as pd
 import logging
-from constants import student_id_column, attendence_files
+from constants_template import student_id_column, attendence_files
 
 
 
